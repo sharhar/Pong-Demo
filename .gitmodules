@@ -1,0 +1,6 @@
+[submodule "SWin"]
+	path = SWin
+	url = https://github.com/sharhar/SWin.git
+[submodule "SText"]
+	path = SText
+	url = https://github.com/sharhar/SText.git
