@@ -13,9 +13,11 @@ if(APPLE)
 		MACOSX_BUNDLE 
 		${PONG_H}
 		${PONG_SRC}
+		${STEXT_HEADERS}
+		${SWIN_HEADERS}
 		)
 else()
-	add_executable(Pong ${PONG_H} ${PONG_SRC})
+	add_executable(Pong ${PONG_H} ${PONG_SRC} ${STEXT_HEADERS} ${SWIN_HEADERS})
 endif()
 
 if(APPLE)
